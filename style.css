@@ -1,0 +1,77 @@
+/* Custom Styles for Bootstrap Practice Lab */
+
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Change font to Open Sans */
+    background-color: rgb(255, 255, 255); /* Light background color */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: red; /* The bootstrap primary color */
+}
+
+.navbar-brand, .nav-link {
+    color: #0af7ff !important; /*Light blue text for navbar links */
+}
+
+.nav-link:hover {
+    color: rgb(238, 132, 10) !important; /* Orange on hover */
+}
+
+/* Hero Section */
+#hero {
+    background: #022242; /* Dark blue background for hero */
+    color: #ff0101; /* Dark red text for better contrast */
+    padding: 50px 0; /* Add some padding */
+}
+
+#hero img {
+    max-height: 301px; /* Limit hero image height */
+    margin-bottom: 21px; /* Space between image and text */
+}
+
+/* Services Section */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Round corners */
+    transition: transform 0.6s; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Portfolio Section */
+#portfolio .card {
+    margin-bottom: 20px; /* Space between cards */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #00e1ff; /* The bootstrap primary color */
+    color: #9b9b9b; /* Silver text */
+    padding: 35px; /* Adding some paddings */
+    border-radius: 13px; /* The round corners */
+}
+
+#contact .form-control {
+    border-radius: 7px; /* The round input fields */
+}
+
+#contact .btn-primary {
+    background-color: #ffc107; /* Custom button color */
+    border-color: #ffc107; /* Custom border color */
+}
+
+#contact .btn-primary:hover {
+    background-color: #007bff; /* Change button color on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
+
+/* The footer */
+footer {
+    background-color: #343a40; /* Dark footer */
+    color: #35d0ff; /* Light blue text */
+    padding: 25px 3; /* Add padding */
+}
